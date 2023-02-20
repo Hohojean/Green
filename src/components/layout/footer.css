@@ -1,0 +1,99 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-family: 'S-CoreDream-3Light';
+}
+
+.red {
+  color: red;
+}
+
+main,
+footer{
+  min-width: 900px;
+}
+
+footer {
+  width: 80%;
+  min-width: 900px;
+}
+
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* ================================================footer============================================ */
+
+footer {
+  margin: auto;
+  margin-top: 200px;
+  padding-bottom: 20px;
+}
+
+.footer_top,
+.footer_middle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer_top,
+.footer_middle,
+.footer_bottom {
+  border-top: 1px solid #dadada;
+  font-size: 14px;
+}
+
+.footer_top>a {
+  width: 20%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.footer_middle {
+  padding: 20px 0;
+}
+
+.footer_top>a,
+.footer_middle span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.footer_middle>div p,
+.footer_middle>div a,
+.footer_bottom span {
+  color: #6e6e6e;
+}
+
+.footer_middle div {
+  flex: 1;
+  text-align: center;
+  height: 100px;
+}
+
+.footer_bottom {
+  padding: 20px 0;
+  height: 50px;
+  font-size: 12px;
+}
+
+.copyright {
+  font-size: 9px;
+  color: #939393;
+  margin-bottom: 20px;
+}
+
+/* .sub_title {
+  min-height: 30px;
+  margin: 50px 0;
+  text-align: center;
+  font-size: 35px;
+  line-height: 48px;
+  padding: 25px 0 65px;
+  margin-top: 90px;
+  text-decoration: overline #bd8a61;
+} */

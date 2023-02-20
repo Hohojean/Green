@@ -1,0 +1,193 @@
+* {
+    list-style-type: none;
+}
+
+
+.wrap {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.wrap .left {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+
+}
+
+.wrap .left>img {
+    height: 50vh;
+    /* width: 800px; */
+    /* opacity: .7; */
+    flex: 3;
+}
+
+.wrap .left>ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* width: 100%; */
+    flex: 1;
+    margin: 0;
+
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding: 0;
+}
+
+.wrap .left ul li {
+    height: 130px;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+}
+
+.wrap .left ul li>img {
+    height: 100%;
+    /* opacity: .7; */
+    flex: 1;
+    width: 120px;
+
+}
+
+.wrap .left>h1 {
+    position: absolute;
+    font-size: 500%;
+    top: 10%;
+    left: 20%;
+    /* opacity: 1; */
+}
+
+.wrap .left>p {
+    position: absolute;
+    font-size: 500%;
+    top: 25%;
+    left: 20%;
+}
+
+/* .wrap .right {
+    width: 400px;
+    background: beige;
+    padding: 30px;
+}
+
+.wrap .right h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.wrap .right p {
+    font-size: 20px;
+} */
+
+/* @@@@@@@@@@@@@@@@@@@@@@ main page @@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    /* margin-top: 150px; */
+}
+
+.Main_image {
+    height: 500px;
+    /* display: flex; */
+    width: 100%;
+    justify-content: center;
+    /* background: url(../img/2.jpg) cover no-repeat; */
+}
+
+.Main_inner {
+    height: inherit;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(1fr, 3);
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.mInner_img {
+    /* grid-row-start: 1;
+    grid-row-end: 7; */
+    grid-row: 1 / 4;
+    background-size: cover;
+}
+
+.minner_banner {
+    background-size: cover;
+}
+
+
+
+
+
+.Main_inner>h2 {
+    color: #000;
+    font-size: 60px;
+    font-weight: 900;
+    /* font-style: italic; */
+    /* text-shadow: 5px 1px 1px rgb(255, 255, 255); */
+    position: relative;
+    top: 0px;
+}
+
+
+
+.Main_inner>span {
+    color: #000;
+    /* text-shadow: 3px 1px 1px #000; */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.M_recommend {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+
+}
+
+.M_recommend h1 {
+    font-style: italic;
+}
+
+.M_recommend_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1%;
+}
+
+.M_recommend_item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.M_recommend_item a {
+    display: flex;
+    align-items: center;
+    flex: 3;
+}
+
+.M_recommend_item img {
+    /* height: 100%; */
+    width: 100%;
+    object-fit: cover;
+}
+
+.M_recommend_item a {
+    flex: 3;
+}

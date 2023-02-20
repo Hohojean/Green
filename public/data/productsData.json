@@ -1,0 +1,168 @@
+{
+  "productsData": [
+    {
+      "productNum": 1,
+      "name": "크로와상",
+      "title": "소금과빛",
+      "price": 2500,
+      "image": "/images/crowasan_001.jpg",
+      "detail": "개맛있는 크로와상"
+    },
+    {
+      "productNum": 2,
+      "name": "단팥 빵",
+      "title": "소금과빛",
+      "price": 1500,
+      "image": "/images/Anpan_001.jpg",
+      "detail": "맛있는 단팥빵"
+    },
+    {
+      "productNum": 3,
+      "name": "식빵",
+      "title": "그린하우스",
+      "price": 4000,
+      "image": "/images/bread_001.jpg",
+      "detail": "딸기쨈 식빵"
+    },
+    {
+      "productNum": 4,
+      "name": "크림 슈",
+      "title": "그린하우스",
+      "price": 800,
+      "image": "/images/creampan_001.jpg",
+      "detail": "애들 입맛"
+    },
+    {
+      "productNum": 5,
+      "name": "피자 빵",
+      "title": "파바",
+      "price": 2100,
+      "image": "/images/pizapan_001.jpg",
+      "detail": "피자빵은 진리"
+    },
+    {
+      "productNum": 6,
+      "name": "크림 슈",
+      "title": "파바",
+      "price": 1000,
+      "image": "/images/creampan_002.jpg",
+      "detail": "여기도 크림슈네"
+    },
+    {
+      "productNum": 7,
+      "name": "완두 빵",
+      "title": "파바",
+      "price": 1500,
+      "image": "/images/WanduAnpan_001.jpg",
+      "detail": "근본 단팥인데"
+    },
+    {
+      "productNum": 8,
+      "name": "마늘 바게트",
+      "title": "파바",
+      "price": 2000,
+      "image": "/images/garlicbread_001.jpg",
+      "detail": "역시 마늘이지"
+    },
+    {
+      "productNum": 9,
+      "name": "이게 뭔 빵이지",
+      "title": "김영모제과점",
+      "price": 2200,
+      "image": "/images/garlicbread_001.jpg",
+      "detail": "이게 뭔 빵이냐"
+    },
+    {
+      "productNum": 10,
+      "name": "중복입니다",
+      "title": "김영모제과점",
+      "price": 3100,
+      "image": "/images/garlicbread_001.jpg",
+      "detail": "중복이랑께"
+    }
+  ],
+  "usersData": [
+    {
+      "userID": "호진",
+      "userName": "정호진",
+      "userPW": "12",
+      "userPhone": "01012345678",
+      "userEmail": "aa@aa.a",
+      "useraddres": "경상도"
+    },
+    {
+      "userID": "유림",
+      "userName": "김유림",
+      "userPW": "12",
+      "userPhone": "01012345678",
+      "userEmail": "bb@bb.b",
+      "useraddres": "충청도"
+    },
+    {
+      "userID": "승준",
+      "userName": "심승준",
+      "userPW": "12",
+      "userPhone": "01012345678",
+      "userEmail": "cc@cc.c",
+      "useraddres": "경기도"
+    },
+    {
+      "userID": "승제",
+      "userName": "류승제",
+      "userPW": "12",
+      "userPhone": "01012345678",
+      "userEmail": "dd@dd.d",
+      "useraddres": "서울시"
+    }
+  ],
+  "bannerData": [
+    {
+      "bannerID": 1,
+      "bannerImage": "/images/banner1.jpg",
+      "bannerTitle": "",
+      "bannerDesc": ""
+    },
+    {
+      "bannerID": 2,
+      "bannerImage": "/images/banner2.jpg",
+      "bannerTitle": "",
+      "bannerDesc": ""
+    },
+    {
+      "bannerID": 3,
+      "bannerImage": "/images/banner3.jpg",
+      "bannerTitle": "",
+      "bannerDesc": ""
+    }
+  ],
+  "shopData": [
+    {
+      "id": "파바",
+      "summary": "spc는 신이고",
+      "location": "여기저기도처에 널림",
+      "minOrder": 18000,
+      "img": "/images/파바.png"
+    },
+    {
+      "id": "그린하우스",
+      "summary": "창원의 자존심",
+      "location": "경상남도 창원시 의창구 도계동 408-1",
+      "minOrder": 18000,
+      "img": "/images/aaaa.png"
+    },
+    {
+      "id": "소금과빛",
+      "summary": "소보루맛집",
+      "location": "경기도 성남시 분당구 정자로76번길 11 한라프라자 1층 119호, 119-1호",
+      "minOrder": 18000,
+      "img": "/images/소금과빛.jpg"
+    },
+    {
+      "id": "김영모제과점",
+      "summary": "spc는 신이고",
+      "location": "여기저기도처에 널림",
+      "minOrder": 18000,
+      "img": "/images/김영모.jpg"
+    }
+  ]
+}

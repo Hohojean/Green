@@ -1,0 +1,10 @@
+.sub_title {
+    min-height: 30px;
+    margin: 50px 0;
+    text-align: center;
+    font-size: 35px;
+    line-height: 48px;
+    padding: 25px 0 65px;
+    margin-top: 90px;
+    text-decoration: overline #bd8a61;
+}
